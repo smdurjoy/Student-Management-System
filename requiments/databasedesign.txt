@@ -1,0 +1,13 @@
+*ADMIN 
+  -id
+  -username
+  -password
+ 
+*STUDENT
+  -id
+  -name
+  -roll
+  -address
+  -contact
+  -class
+  -image

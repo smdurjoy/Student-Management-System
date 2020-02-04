@@ -1,0 +1,16 @@
+.admintitle{
+    background: #0cb59e;
+    text-align: center;
+    color: aliceblue;
+    height: 100px;
+}
+
+.logout{
+    color: aliceblue;
+    float: right;
+    margin-top: 10px;
+}
+.button{
+    margin-top: 50px;
+    text-align: center;
+}
