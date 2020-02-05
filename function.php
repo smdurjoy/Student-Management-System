@@ -20,7 +20,7 @@ function showdetails($class, $roll)
             </th>
 
             <tr>
-                <td rowspan="5"><img src="dataimage/<?php echo $data['image']; ?>"> </td>
+                <td rowspan="5"><img style="max-width:300px" src="dataimage/<?php echo $data['image']; ?>"> </td>
                 <th>Name</th>
                 <td><?php echo $data['name'];?> </td>
             </tr>

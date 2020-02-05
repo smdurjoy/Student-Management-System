@@ -16,17 +16,18 @@
     <a href="login.php" class="btn btn-primary">Admin login</a>
   </div>
 
-    <h1 style="text-align:center">Welcome to School Managment System</h1>
+    <h1 style="text-align:center; color: #00a18c;">Welcome to School Managment System</h1>
 
   <div class="container">
     <form method="POST" action="index.php">
       <div class="form-group">
         <label for="roll">Enter roll</label>
-        <input type="number" class="form-control" placeholder="roll number" name="roll" Required>
+        <input type="number" class="form-control" placeholder="Roll number" name="roll" Required>
       </div>
       <div class="form-group">
         <label for="class">Which Class?</label>
         <select class="form-control" name="class" Required>
+          <option value="select">Select Class</option>
           <option value="1">1</option>
           <option value="2">2</option>
           <option value="3">3</option>
