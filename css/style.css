@@ -1,5 +1,31 @@
+.navbar{
+    height: 50px;
+}
+.navbar ul{
+    position: absolute;
+    display: flex;
+    color: black;
+}
+
+.navbar ul li{
+    list-style: none;
+}
+
+.navbar ul li a{
+    position: relative;
+    display: block;
+    text-decoration: none;
+    padding: 10px 15px;
+    font-weight: bold;
+}
+
+.navbar ul li.active a{
+    background: black;
+    color: #fff;
+}
+
 .admintitle{
-    background: #0cb59e;
+    background: #8a3e00;
     text-align: center;
     color: aliceblue;
     height: 100px;
@@ -14,3 +40,4 @@
     margin-top: 50px;
     text-align: center;
 }
+

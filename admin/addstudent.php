@@ -18,8 +18,7 @@ else
 ?>
 
 <div class="container">
-<a href="admin.php" class="btn btn-primary" style="float:left; margin-top:10px; margin-bottom:10px">Back to Dashboard</a>
-    <form action="addstudent.php" method="POST" enctype="multipart/form-data">
+    <form action="addstudent.php" method="POST" enctype="multipart/form-data" style="margin-top:30px">
         <table class="table">
             
             <tr>
@@ -74,6 +73,7 @@ else
         $tempname = $_FILES['image']['tmp_name'];
 
         move_uploaded_file($tempname, "../dataimage/$image");
+
 
         $query = "INSERT INTO `student`(`name`, `roll`, `class`, `address`, `contact`, `image`) VALUES ('$name', '$roll', '$class', '$address', '$cnumber', '$image')";
 

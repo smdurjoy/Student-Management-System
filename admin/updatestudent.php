@@ -18,8 +18,7 @@ else
 ?>
 
 <div class="container">
-<a href="admin.php" class="btn btn-primary" style="float:left; margin-top:10px; margin-bottom:20px">Back to Dashboard</a>
-<form action="updatestudent.php" method="POST">
+<form action="updatestudent.php" method="POST" style="margin-top:30px">
     <table class="table">
         <tr>
             <th>Enter Student Name:</th>
